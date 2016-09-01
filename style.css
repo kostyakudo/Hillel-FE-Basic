@@ -27,7 +27,6 @@ li {
     color: white;
     list-style: none;
 }
-<<<<<<< HEAD
 
 h1:hover {
     transition: 5s;
@@ -41,13 +40,16 @@ li:hover {
     margin: 30px;
     color: darkgoldenrod;
 }
-=======
-h1:hover{transition: 5s;
-color: darkorange;
-cursor: pointer;
+
+h1:hover {
+    transition: 5s;
+    color: darkorange;
+    cursor: pointer;
 }
-li:hover{transition: 5s;
-font-size: 25px;
+
+li:hover {
+    transition: 5s;
+    font-size: 25px;
     margin: 30px;
-    color:darkgoldenrod;}
->>>>>>> fc7cddcea70fe091247996647aba1bf0b160f99b
+    color: darkgoldenrod;
+}
