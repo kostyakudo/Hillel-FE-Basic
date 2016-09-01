@@ -1,0 +1,42 @@
+main {
+    width: 100%;
+}
+
+.block {
+    margin: 0 auto;
+    width: 80%;
+    height: 800px;
+    background-image: url(http://getbg.net/upload/full/www.GetBg.net_Backgrounds_Black_cubic_background_094966_.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block>h1 {
+    margin: auto 0;
+    padding-top: 150px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+li {
+    cursor: pointer;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    list-style: none;
+}
+
+h1:hover {
+    transition: 5s;
+    color: darkorange;
+    cursor: pointer;
+}
+
+li:hover {
+    transition: 5s;
+    font-size: 25px;
+    margin: 30px;
+    color: darkgoldenrod;
+}
